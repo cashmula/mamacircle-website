@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload to Webhuset (mamacircle.no)
+        uses: wangyucode/sftp-upload-action@v3
+        with:
+          host: ${{ secrets.WEBHUSET_SFTP_HOST }}
+          username: ${{ secrets.WEBHUSET_SFTP_USER }}
+          password: ${{ secrets.WEBHUSET_SFTP_PASSWORD }}
+          localDir: "."
+          remoteDir: "www"
+          exclude: ".git*,.github,README.md,CNAME"
