@@ -50,7 +50,6 @@ const translations = {
     "about.expect.body": "Lag en profil, fortell oss om nabolaget og den lille, og begynn å koble deg til andre mødre i nærheten. Ingen nøyaktig adresse deles noensinne, kun nabolaget ditt.",
 
     "founder.heading": "Et ord fra grunnleggeren",
-    "founder.quote": "Når et barn blir født, blir også en mor født.",
     "founder.body1": "Hei, jeg heter Saga, og jeg grunnla MamaCircle.",
     "founder.body2": "Når et barn blir født, blir også en mor født, og ingen bør måtte finne ut av den fødselen helt alene.",
     "founder.body3": "Jeg bygde MamaCircle fordi jeg ville at hver mor skulle ha et sted å finne sin krets: en mamma i nærheten med en baby i samme alder, en gruppe som føles som hjemme, et spørsmål besvart av noen som har vært akkurat der du er.",
@@ -64,7 +63,7 @@ const translations = {
     "menwithbabies.badge": "Kommer snart",
     "menwithbabies.body": "Et sted for pappaer også. Under utvikling.",
 
-    "features.heading": "Bygget for det første året (og de neste)",
+    "features.heading": "Bygget for det første året (og de neste) — når et barn blir født, blir også en mor født",
     "features.nearby.title": "Finn din krets",
     "features.nearby.body": "MamaCircle matcher deg med mødre i nærheten som har barn i samme alder, slik at du kan planlegge lekestunder og bygge ekte vennskap nær der du bor. Din nøyaktige adresse er alltid privat: kun ditt nabolag vises.",
     "features.feed.title": "Feed og grupper",
@@ -171,7 +170,6 @@ const translations = {
     "about.expect.body": "Create a profile, tell us about your neighborhood and your little one, and start connecting with nearby mothers. Your exact address is never shared, only your neighborhood.",
 
     "founder.heading": "A word from the founder",
-    "founder.quote": "When a child is born, a mother is born too.",
     "founder.body1": "Hi, I'm Saga, and I founded MamaCircle.",
     "founder.body2": "When a child is born, a mother is born too, and nobody should have to figure out that second birth alone.",
     "founder.body3": "I built MamaCircle because I wanted every mother to have somewhere to find her circle: a nearby mom with a baby the same age, a group that feels like home, a question answered by someone who's been exactly where you are.",
@@ -185,7 +183,7 @@ const translations = {
     "menwithbabies.badge": "Coming soon",
     "menwithbabies.body": "A space for dads too. In the works.",
 
-    "features.heading": "Built for the first year (and the ones after)",
+    "features.heading": "Built for the first year (and the ones after) — when a child is born, a mother is born too",
     "features.nearby.title": "Find your circle",
     "features.nearby.body": "MamaCircle matches you with nearby mothers who have babies around the same age, so you can plan playdates and build real friendships close to home. Your exact address stays private: only your neighborhood is ever shown.",
     "features.feed.title": "Feed & groups",

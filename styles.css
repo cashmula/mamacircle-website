@@ -326,14 +326,6 @@ a:hover { text-decoration: underline; }
 /* Founder */
 .founder { padding: 64px 0; background: var(--surface-muted); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .founder-inner { max-width: 720px; margin: 0 auto; text-align: center; }
-.founder-quote {
-  font-family: "Fraunces", serif;
-  font-weight: 600;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  color: var(--rosewood);
-  margin: 0 0 32px;
-  quotes: none;
-}
 .founder-copy { text-align: left; }
 .founder-copy h2 { text-align: center; margin-bottom: 20px; }
 .founder-signature {
