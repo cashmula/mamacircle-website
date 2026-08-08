@@ -39,7 +39,7 @@ const translations = {
     "alone.prompt": "Kjenner du deg litt alene i dag?",
     "alone.title": "Du er ikke alene.",
     "alone.body": "Et sted i vår krets er det sikkert en annen mamma som er våken med babyen sin akkurat nå, og lurer på om hun er den eneste som har det slik.",
-    "alone.cta": "Finn din krets →",
+    "alone.cta": "Bli med i kretsen →",
 
     "about.heading": "Om Mama Circle",
     "about.what.heading": "Hva er Mama Circle?",
@@ -159,7 +159,7 @@ const translations = {
     "alone.prompt": "Feeling a little alone today?",
     "alone.title": "You're not alone.",
     "alone.body": "Somewhere in our circle, another mama is probably awake with a baby right now, wondering if she's the only one feeling this way.",
-    "alone.cta": "Find your circle →",
+    "alone.cta": "Join the circle →",
 
     "about.heading": "About Mama Circle",
     "about.what.heading": "What is Mama Circle?",
