@@ -6,6 +6,8 @@ Plain HTML/CSS/JS, no build step. `index.html` holds both Norwegian and English 
 
 Phone screenshots in `assets/screenshots/` are downscaled copies of the app's real Play Store screenshots (source: `~/Downloads/mamacircle-screenshots/phone/`). App icon variants in `assets/icons/` are generated from `mamacircle-app/app/assets/icon/icon.png`.
 
+`site.js` talks directly to the same production Supabase project the app uses (anon key, public/anon-safe RLS only — no service role key on this site) for two features: the newsletter signup form (insert-only into `newsletter_subscribers`) and the real member-count stats strip (`public_circle_stats()`, an aggregate-only RPC). Both were added to the live schema specifically to support this site; see `mamacircle-app/PROJECT.md`'s forty-third continuation entry.
+
 The Play Store button links to the `mamacircle-testers` Google Group join page (`https://groups.google.com/g/mamacircle-testers`), not the Play Store directly: the app is in Closed Testing, which requires joining that tester group before Play Store access is granted at all. Update it to a direct Play Store listing link once MamaCircle reaches public production.
 
 To preview locally:
