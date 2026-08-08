@@ -84,7 +84,56 @@ function initNewsletterForm() {
   });
 }
 
+function initLittleNoteForm() {
+  const form = document.getElementById("note-form");
+  if (!form) return;
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const textInput = document.getElementById("note-text-input");
+    const authorInput = document.getElementById("note-author-input");
+    const status = document.getElementById("note-status");
+    const button = form.querySelector("button[type=submit]");
+    const noteText = textInput.value.trim();
+    if (!noteText) return;
+
+    button.disabled = true;
+    status.hidden = true;
+    let key = "note.write_error";
+    try {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/little_note_submissions`, {
+        method: "POST",
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+          "Content-Type": "application/json",
+          Prefer: "return=minimal",
+        },
+        body: JSON.stringify({
+          note_text: noteText,
+          author_label: authorInput.value.trim() || null,
+          locale: currentLang(),
+        }),
+      });
+      if (res.status === 201 || res.status === 204) {
+        key = "note.write_success";
+        textInput.value = "";
+        authorInput.value = "";
+      } else {
+        throw new Error(`status ${res.status}`);
+      }
+    } catch (err) {
+      key = "note.write_error";
+    } finally {
+      button.disabled = false;
+      status.dataset.i18n = key;
+      status.textContent = translations[currentLang()][key];
+      status.hidden = false;
+    }
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadCircleStats();
   initNewsletterForm();
+  initLittleNoteForm();
 });

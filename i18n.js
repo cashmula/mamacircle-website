@@ -17,6 +17,7 @@ const translations = {
     "nav.features": "Funksjoner",
     "nav.privacy": "Personvern",
     "nav.faq": "Spørsmål",
+    "nav.contact": "Kontakt",
 
     "hero.kicker": "Ikke alene. Forstått. Du hører til.",
     "hero.title": "Aldri alene som nybakt mor",
@@ -35,6 +36,15 @@ const translations = {
 
     "note.heading": "En liten hilsen fra en mamma ✒︎",
     "note.cta": "Legg igjen en hilsen →",
+    "note.write_heading": "Legg igjen en hilsen",
+    "note.write_body": "Del en liten hilsen med andre mødre i kretsen, anonymt om du vil.",
+    "note.write_placeholder": "Skriv din hilsen her...",
+    "note.write_author_label": "Hvor er du fra? (valgfritt)",
+    "note.write_author_placeholder": "F.eks. En mamma i Oslo",
+    "note.write_button": "Send hilsen",
+    "note.write_note": "Hilsener blir lest gjennom før de eventuelt deles videre i kretsen.",
+    "note.write_success": "Takk! Hilsenen din er mottatt.",
+    "note.write_error": "Noe gikk feil. Prøv igjen om litt.",
 
     "alone.prompt": "Kjenner du deg litt alene i dag?",
     "alone.title": "Du er ikke alene.",
@@ -51,10 +61,10 @@ const translations = {
 
     "founder.heading": "Et ord fra grunnleggeren",
     "founder.body1": "Hei, jeg heter Saga, og jeg grunnla MamaCircle.",
-    "founder.body2": "Når et barn blir født, blir også en mor født, og ingen bør måtte finne ut av den fødselen helt alene.",
     "founder.body3": "Jeg bygde MamaCircle fordi jeg ville at hver mor skulle ha et sted å finne sin krets: en mamma i nærheten med en baby i samme alder, en gruppe som føles som hjemme, et spørsmål besvart av noen som har vært akkurat der du er.",
     "founder.body4": "Uansett hvem du er, hva du snakker, eller hvor du kommer fra: det er en plass for deg her.",
     "founder.signature": "— Saga",
+    "founder.teaser_cta": "Les Sagas historie →",
 
     "languages.heading": "Rundt om i vår krets",
     "languages.tagline": "Én krets. Mange språk. Én følelse: å høre til.",
@@ -92,6 +102,8 @@ const translations = {
     "privacy.link": "Les hele personvernerklæringen →",
 
     "faq.heading": "Spørsmål",
+    "faq.teaser_body": "Svar på de vanligste spørsmålene om MamaCircle.",
+    "faq.teaser_cta": "Se alle spørsmål →",
     "faq.q1.q": "Er MamaCircle tilgjengelig nå?",
     "faq.q1.a": "Appen er i lukket testing på Google Play. Trykk på “Google Play”-knappen øverst for å bli med i testgruppen: du får så tilgang til appen på Play Store kort tid etter.",
     "faq.q2.q": "Fungerer MamaCircle på iPhone?",
@@ -111,6 +123,7 @@ const translations = {
 
     "contact.heading": "Forslag og spørsmål",
     "contact.body": "Vi vil gjerne høre fra deg. Velg det som passer best:",
+    "contact.teaser_cta": "Kontakt oss →",
     "contact.suggestion": "💡 Forslag",
     "contact.question": "❓ Spørsmål",
     "contact.inquiry": "📩 Forespørsel",
@@ -131,12 +144,14 @@ const translations = {
     "footer.privacy": "Personvern",
     "footer.terms": "Vilkår",
     "footer.contact": "Kontakt",
+    "footer.founder": "Vår historie",
   },
   en: {
     "nav.about": "About",
     "nav.features": "Features",
     "nav.privacy": "Privacy",
     "nav.faq": "FAQ",
+    "nav.contact": "Contact",
 
     "hero.kicker": "Not alone. Understood. Belong.",
     "hero.title": "Never alone as a new mom",
@@ -155,6 +170,15 @@ const translations = {
 
     "note.heading": "A little note from a mama ✒︎",
     "note.cta": "Leave a little note →",
+    "note.write_heading": "Leave a little note",
+    "note.write_body": "Share a little note with other mamas in the circle, anonymously if you like.",
+    "note.write_placeholder": "Write your note here...",
+    "note.write_author_label": "Where are you from? (optional)",
+    "note.write_author_placeholder": "E.g. A Mama in Oslo",
+    "note.write_button": "Send note",
+    "note.write_note": "Notes are read through before they might be shared in the circle.",
+    "note.write_success": "Thank you! Your note has been received.",
+    "note.write_error": "Something went wrong. Please try again shortly.",
 
     "alone.prompt": "Feeling a little alone today?",
     "alone.title": "You're not alone.",
@@ -171,10 +195,10 @@ const translations = {
 
     "founder.heading": "A word from the founder",
     "founder.body1": "Hi, I'm Saga, and I founded MamaCircle.",
-    "founder.body2": "When a child is born, a mother is born too, and nobody should have to figure out that second birth alone.",
     "founder.body3": "I built MamaCircle because I wanted every mother to have somewhere to find her circle: a nearby mom with a baby the same age, a group that feels like home, a question answered by someone who's been exactly where you are.",
     "founder.body4": "Whoever you are, whatever you speak, wherever you're from: there's a place for you here.",
     "founder.signature": "— Saga",
+    "founder.teaser_cta": "Read Saga's full story →",
 
     "languages.heading": "Around the world in our circle",
     "languages.tagline": "One circle. Many languages. One feeling: Belonging.",
@@ -212,6 +236,8 @@ const translations = {
     "privacy.link": "Read the full privacy policy →",
 
     "faq.heading": "FAQ",
+    "faq.teaser_body": "Answers to the most common questions about MamaCircle.",
+    "faq.teaser_cta": "See all questions →",
     "faq.q1.q": "Is MamaCircle available now?",
     "faq.q1.a": "The app is in closed testing on Google Play. Tap the “Google Play” button above to join the tester group: you'll get Play Store access shortly after.",
     "faq.q2.q": "Does MamaCircle work on iPhone?",
@@ -231,6 +257,7 @@ const translations = {
 
     "contact.heading": "Suggestions & inquiries",
     "contact.body": "We'd love to hear from you. Pick whatever fits best:",
+    "contact.teaser_cta": "Contact us →",
     "contact.suggestion": "💡 Suggestion",
     "contact.question": "❓ Question",
     "contact.inquiry": "📩 Inquiry",
@@ -251,6 +278,7 @@ const translations = {
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
     "footer.contact": "Contact",
+    "footer.founder": "Our story",
   },
 };
 

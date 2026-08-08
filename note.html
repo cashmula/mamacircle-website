@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="nb" data-lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legg igjen en hilsen – MamaCircle</title>
+<meta name="description" content="Del en liten hilsen med andre mødre i MamaCircle-kretsen.">
+<meta property="og:title" content="Legg igjen en hilsen – MamaCircle">
+<meta property="og:description" content="Del en liten hilsen med andre mødre i MamaCircle-kretsen.">
+<meta property="og:image" content="https://mamacircle.no/assets/icons/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mamacircle.no/note.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/icons/logo-96.png" alt="" width="36" height="36">
+      <span>MamaCircle</span>
+    </a>
+    <nav class="header-nav">
+      <a href="index.html#about" data-i18n="nav.about">Om oss</a>
+      <a href="index.html#features" data-i18n="nav.features">Funksjoner</a>
+      <a href="faq.html" data-i18n="nav.faq">Spørsmål</a>
+      <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="write-note" class="note write-note">
+    <div class="wrap note-inner">
+      <h2 data-i18n="note.write_heading">Legg igjen en hilsen</h2>
+      <p data-i18n="note.write_body">Del en liten hilsen med andre mødre i kretsen, anonymt om du vil.</p>
+      <form id="note-form" class="note-form">
+        <textarea id="note-text-input" required maxlength="500" rows="4"
+                  data-i18n-placeholder="note.write_placeholder"
+                  placeholder="Skriv din hilsen her..."
+                  aria-label="Your note"></textarea>
+        <label for="note-author-input" data-i18n="note.write_author_label">Hvor er du fra? (valgfritt)</label>
+        <input type="text" id="note-author-input" maxlength="80"
+               data-i18n-placeholder="note.write_author_placeholder"
+               placeholder="F.eks. En mamma i Oslo">
+        <button type="submit" class="btn btn-primary" data-i18n="note.write_button">Send hilsen</button>
+      </form>
+      <p class="note-form-note" data-i18n="note.write_note">Hilsener blir lest gjennom før de eventuelt deles videre i kretsen.</p>
+      <p id="note-status" class="newsletter-status" hidden></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span data-i18n="footer.copy">© 2026 Hafmula Group. MamaCircle er et kallenavn under utvikling.</span>
+    <div class="footer-links">
+      <a href="https://cashmula.github.io/mamacircle-legal/" target="_blank" rel="noopener" data-i18n="footer.privacy">Personvern</a>
+      <a href="https://cashmula.github.io/mamacircle-legal/terms/" target="_blank" rel="noopener" data-i18n="footer.terms">Vilkår</a>
+      <a href="founder.html" data-i18n="footer.founder">Vår historie</a>
+      <a href="contact.html" data-i18n="footer.contact">Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
