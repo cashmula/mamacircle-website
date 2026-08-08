@@ -197,6 +197,7 @@ a:hover { text-decoration: underline; }
 /* Features */
 .features { padding: 56px 0; background: var(--surface-muted); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .features h2 { text-align: center; font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 40px; }
+.features-teaser h2 { margin-bottom: 12px; }
 
 .feature-grid {
   display: grid;

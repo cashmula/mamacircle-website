@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fellesskapshjørnet – MamaCircle</title>
-<meta name="description" content="Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.">
-<meta property="og:title" content="Fellesskapshjørnet – MamaCircle">
-<meta property="og:description" content="Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.">
+<title>Funksjoner – MamaCircle</title>
+<meta name="description" content="Finn din krets, del i grupper, chat i sanntid, og spør og svar med andre mødre i MamaCircle.">
+<meta property="og:title" content="Funksjoner – MamaCircle">
+<meta property="og:description" content="Finn din krets, del i grupper, chat i sanntid, og spør og svar med andre mødre i MamaCircle.">
 <meta property="og:image" content="https://mamacircle.no/assets/icons/og-image.jpg">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://mamacircle.no/community.html">
+<meta property="og:url" content="https://mamacircle.no/features.html">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
@@ -39,30 +39,36 @@
 
 <main>
 
-  <section class="community-intro">
-    <div class="wrap section-teaser">
-      <h1 data-i18n="community.page_heading">Fellesskapshjørnet</h1>
-      <p data-i18n="community.page_intro">Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.</p>
-    </div>
-  </section>
+  <section id="features" class="features">
+    <div class="wrap">
+      <h2 data-i18n="features.heading">Laget for øyeblikkene som betyr noe</h2>
+      <div class="feature-grid">
 
-  <section id="alone" class="alone">
-    <div class="wrap alone-inner">
-      <button id="alone-prompt-btn" type="button" class="btn btn-secondary" data-i18n="alone.prompt">Kjenner du deg litt alene i dag?</button>
-      <div id="alone-reveal" class="alone-reveal" hidden>
-        <h3 data-i18n="alone.title">Du er ikke alene.</h3>
-        <p data-i18n="alone.body">Et sted i vår krets er det sikkert en annen mamma som er våken med babyen sin akkurat nå, og lurer på om hun er den eneste som har det slik.</p>
-        <a class="link-more" href="https://groups.google.com/g/mamacircle-testers" target="_blank" rel="noopener" data-i18n="alone.cta">Bli med i kretsen →</a>
+        <div class="feature-card">
+          <img src="assets/screenshots/02_discover.jpg" alt="" class="feature-shot">
+          <h3 data-i18n="features.nearby.title">Finn din krets</h3>
+          <p data-i18n="features.nearby.body">MamaCircle matcher deg med mødre i nærheten som har barn i samme alder, slik at du kan planlegge lekestunder og bygge ekte vennskap nær der du bor. Din nøyaktige adresse er alltid privat: kun ditt nabolag vises.</p>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/screenshots/04_groups.jpg" alt="" class="feature-shot">
+          <h3 data-i18n="features.feed.title">Feed og grupper</h3>
+          <p data-i18n="features.feed.body">Del oppdateringer, bilder og spørsmål med mødrene rundt deg. Bli med i eller start grupper basert på interesser, nabolag eller livsfase.</p>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/screenshots/03_chat.jpg" alt="" class="feature-shot">
+          <h3 data-i18n="features.chat.title">Chat</h3>
+          <p data-i18n="features.chat.body">Snakk direkte med en annen mor, eller i gruppe, i sanntid.</p>
+        </div>
+
+        <div class="feature-card">
+          <img src="assets/screenshots/05_forum.jpg" alt="" class="feature-shot">
+          <h3 data-i18n="features.forum.title">Spørsmål og svar</h3>
+          <p data-i18n="features.forum.body">Spør om hva som helst, søkbart, besvart av mødre som har vært der selv. Pluss et kunnskapsbibliotek med artikler bidratt og kvalitetssikret av fellesskapet.</p>
+        </div>
+
       </div>
-    </div>
-  </section>
-
-  <section id="note" class="note">
-    <div class="wrap note-inner">
-      <h3 data-i18n="note.heading">En liten hilsen fra en mamma ✒︎</h3>
-      <p id="little-note-text" class="note-text"></p>
-      <p id="little-note-place" class="note-place"></p>
-      <a class="link-more" href="note.html" data-i18n="note.cta">Legg igjen en hilsen →</a>
     </div>
   </section>
 
