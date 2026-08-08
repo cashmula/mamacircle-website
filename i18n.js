@@ -63,7 +63,7 @@ const translations = {
     "menwithbabies.badge": "Kommer snart",
     "menwithbabies.body": "Et sted for pappaer også. Under utvikling.",
 
-    "features.heading": "Bygget for det første året (og de neste) — når et barn blir født, blir også en mor født",
+    "features.heading": "Laget for øyeblikkene som betyr noe",
     "features.nearby.title": "Finn din krets",
     "features.nearby.body": "MamaCircle matcher deg med mødre i nærheten som har barn i samme alder, slik at du kan planlegge lekestunder og bygge ekte vennskap nær der du bor. Din nøyaktige adresse er alltid privat: kun ditt nabolag vises.",
     "features.feed.title": "Feed og grupper",
@@ -183,7 +183,7 @@ const translations = {
     "menwithbabies.badge": "Coming soon",
     "menwithbabies.body": "A space for dads too. In the works.",
 
-    "features.heading": "Built for the first year (and the ones after) — when a child is born, a mother is born too",
+    "features.heading": "Made for the moments that matter",
     "features.nearby.title": "Find your circle",
     "features.nearby.body": "MamaCircle matches you with nearby mothers who have babies around the same age, so you can plan playdates and build real friendships close to home. Your exact address stays private: only your neighborhood is ever shown.",
     "features.feed.title": "Feed & groups",
