@@ -69,7 +69,7 @@
             <a class="need-chip" href="#faq" data-i18n="hero.needActivity">🎨 Noe å gjøre med</a>
             <a class="need-chip" href="#languages" data-i18n="hero.needLanguage">🗣️ Hjelp med språk</a>
             <a class="need-chip" href="#about" data-i18n="hero.needSettling">🌍 Hjelp til å finne seg til rette</a>
-            <a class="need-chip" href="#alone" data-i18n="hero.needEncouragement">🖤 Bare litt oppmuntring</a>
+            <a class="need-chip" href="community.html#alone" data-i18n="hero.needEncouragement">🖤 Bare litt oppmuntring</a>
           </div>
         </div>
       </div>
@@ -97,21 +97,7 @@
           <p data-i18n="about.expect.body">Lag en profil, fortell oss om nabolaget og den lille, og begynn å koble deg til andre mødre i nærheten. Ingen nøyaktig adresse deles noensinne, kun nabolaget ditt.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="founder" class="founder">
-    <div class="wrap founder-inner section-teaser">
-      <h2 data-i18n="founder.heading">Et ord fra grunnleggeren</h2>
-      <p data-i18n="founder.body1">Hei, jeg heter Saga, og jeg grunnla MamaCircle.</p>
-      <a class="link-more" href="founder.html" data-i18n="founder.teaser_cta">Les Sagas historie →</a>
-    </div>
-  </section>
-
-  <section id="languages" class="languages">
-    <div class="wrap">
-      <h2 data-i18n="languages.heading">Rundt om i vår krets</h2>
-      <div class="language-badges" aria-hidden="true">
+      <div id="languages" class="language-badges" aria-hidden="true">
         <span class="lang-badge">🇳🇴 Norsk</span>
         <span class="lang-badge">🇬🇧 English</span>
         <span class="lang-badge">🇸🇪 Svenska</span>
@@ -123,14 +109,10 @@
         <span class="lang-badge">🇪🇹 አማርኛ</span>
       </div>
       <p class="languages-tagline" data-i18n="languages.tagline">Én krets. Mange språk. Én følelse: å høre til.</p>
-    </div>
-  </section>
-
-  <section id="menwithbabies" class="menwithbabies">
-    <div class="wrap menwithbabies-inner">
-      <span class="badge-soon" data-i18n="menwithbabies.badge">Kommer snart</span>
-      <h3 data-i18n="menwithbabies.heading">Menn med babyer</h3>
-      <p data-i18n="menwithbabies.body">Et sted for pappaer også. Under utvikling.</p>
+      <p class="about-founder-mention">
+        <span data-i18n="about.founder_mention">MamaCircle er grunnlagt av Saga.</span>
+        <a class="link-more" href="founder.html" data-i18n="founder.teaser_cta">Les Sagas historie →</a>
+      </p>
     </div>
   </section>
 
@@ -167,23 +149,11 @@
     </div>
   </section>
 
-  <section id="alone" class="alone">
-    <div class="wrap alone-inner">
-      <button id="alone-prompt-btn" type="button" class="btn btn-secondary" data-i18n="alone.prompt">Kjenner du deg litt alene i dag?</button>
-      <div id="alone-reveal" class="alone-reveal" hidden>
-        <h3 data-i18n="alone.title">Du er ikke alene.</h3>
-        <p data-i18n="alone.body">Et sted i vår krets er det sikkert en annen mamma som er våken med babyen sin akkurat nå, og lurer på om hun er den eneste som har det slik.</p>
-        <a class="link-more" href="https://groups.google.com/g/mamacircle-testers" target="_blank" rel="noopener" data-i18n="alone.cta">Bli med i kretsen →</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="note" class="note">
-    <div class="wrap note-inner">
-      <h3 data-i18n="note.heading">En liten hilsen fra en mamma ✒︎</h3>
-      <p id="little-note-text" class="note-text"></p>
-      <p id="little-note-place" class="note-place"></p>
-      <a class="link-more" href="note.html" data-i18n="note.cta">Legg igjen en hilsen →</a>
+  <section id="community" class="community-teaser">
+    <div class="wrap section-teaser">
+      <h2 data-i18n="community.teaser_heading">Fellesskapshjørnet</h2>
+      <p data-i18n="community.teaser_body">Kjenner du deg alene, eller vil du lese eller legge igjen en hilsen fra andre mammaer?</p>
+      <a class="link-more" href="community.html" data-i18n="community.teaser_cta">Besøk fellesskapshjørnet →</a>
     </div>
   </section>
 
@@ -228,14 +198,6 @@
     </div>
   </section>
 
-  <section id="testimonials" class="testimonials">
-    <div class="wrap">
-      <h2 data-i18n="testimonials.heading">Fine ord fra andre mammaer</h2>
-      <p id="testimonials-empty" data-i18n="testimonials.empty">Kretsen vår er akkurat i gang. Kom tilbake snart for fine ord fra mammaer i fellesskapet.</p>
-      <div id="testimonials-list" class="testimonials-list" style="display:none"></div>
-    </div>
-  </section>
-
   <section id="faq" class="faq">
     <div class="wrap section-teaser">
       <h2 data-i18n="faq.heading">Spørsmål</h2>
@@ -263,13 +225,7 @@
         <button type="submit" class="btn btn-primary" data-i18n="newsletter.button">Abonner</button>
       </form>
       <p id="newsletter-status" class="newsletter-status" hidden></p>
-    </div>
-  </section>
-
-  <section id="joinclub" class="joinclub">
-    <div class="wrap joinclub-inner">
-      <h2 data-i18n="joinclub.heading">Klar for å bli med?</h2>
-      <a class="btn btn-primary" href="https://groups.google.com/g/mamacircle-testers" target="_blank" rel="noopener" data-i18n="joinclub.button">Bli med i klubben</a>
+      <a class="link-more newsletter-secondary" href="https://groups.google.com/g/mamacircle-testers" target="_blank" rel="noopener" data-i18n="joinclub.button">Bli med i klubben</a>
     </div>
   </section>
 
@@ -281,7 +237,8 @@
     <div class="footer-links">
       <a href="https://cashmula.github.io/mamacircle-legal/" target="_blank" rel="noopener" data-i18n="footer.privacy">Personvern</a>
       <a href="https://cashmula.github.io/mamacircle-legal/terms/" target="_blank" rel="noopener" data-i18n="footer.terms">Vilkår</a>
-      <a href="mailto:hafmulagroup@gmail.com" data-i18n="footer.contact">Kontakt</a>
+      <a href="founder.html" data-i18n="footer.founder">Vår historie</a>
+      <a href="contact.html" data-i18n="footer.contact">Kontakt</a>
     </div>
   </div>
 </footer>

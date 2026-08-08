@@ -322,6 +322,9 @@ a:hover { text-decoration: underline; }
 }
 .about-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
 .about-card p { font-size: 0.92rem; margin: 0; }
+.about .language-badges { margin-top: 32px; }
+.about-founder-mention { text-align: center; font-size: 0.9rem; color: var(--ink-soft); margin-top: 12px; }
+.about-founder-mention .link-more { margin-left: 6px; }
 
 /* Founder */
 .founder { padding: 64px 0; background: var(--surface-muted); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
@@ -380,6 +383,11 @@ a:hover { text-decoration: underline; }
 }
 .menwithbabies-inner h3 { margin-bottom: 6px; font-size: 1.05rem; }
 .menwithbabies-inner p { margin: 0; font-size: 0.9rem; }
+
+/* Community teaser (homepage) + intro (community.html) */
+.community-teaser { padding: 56px 0; }
+.community-intro { padding: 64px 0 24px; }
+.community-intro h1 { text-align: center; font-size: clamp(1.6rem, 3vw, 2.2rem); }
 
 /* You're not alone */
 .alone { padding: 48px 0; text-align: center; }
@@ -474,10 +482,7 @@ a:hover { text-decoration: underline; }
   font-size: 0.95rem;
 }
 .newsletter-status { margin-top: 14px; font-size: 0.9rem; color: var(--ink-soft); }
-
-/* Join the club */
-.joinclub { padding: 56px 0 72px; text-align: center; }
-.joinclub h2 { margin-bottom: 20px; }
+.newsletter-secondary { display: block; margin-top: 18px; font-size: 0.85rem; }
 
 /* FAQ */
 .faq { padding: 56px 0 80px; }

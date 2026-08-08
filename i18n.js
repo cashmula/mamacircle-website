@@ -51,6 +51,12 @@ const translations = {
     "alone.body": "Et sted i vår krets er det sikkert en annen mamma som er våken med babyen sin akkurat nå, og lurer på om hun er den eneste som har det slik.",
     "alone.cta": "Bli med i kretsen →",
 
+    "community.teaser_heading": "Fellesskapshjørnet",
+    "community.teaser_body": "Kjenner du deg alene, eller vil du lese eller legge igjen en hilsen fra andre mammaer?",
+    "community.teaser_cta": "Besøk fellesskapshjørnet →",
+    "community.page_heading": "Fellesskapshjørnet",
+    "community.page_intro": "Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.",
+
     "about.heading": "Om Mama Circle",
     "about.what.heading": "Hva er Mama Circle?",
     "about.what.body": "MamaCircle er et fellesskap for mødre: finn mødre i nærheten med barn i samme alder, del erfaringer i grupper, chat, spør og svar, og et kunnskapsbibliotek skrevet av fellesskapet selv.",
@@ -58,6 +64,7 @@ const translations = {
     "about.who.body": "For nybakte og gravide mødre, uansett bakgrunn eller morsmål. MamaCircle er bygget for integrering og inkludering fra første dag: å koble mødre sammen tvers av språk og kulturer, ikke bare i eget nabolag.",
     "about.expect.heading": "Hva kan du forvente?",
     "about.expect.body": "Lag en profil, fortell oss om nabolaget og den lille, og begynn å koble deg til andre mødre i nærheten. Ingen nøyaktig adresse deles noensinne, kun nabolaget ditt.",
+    "about.founder_mention": "MamaCircle er grunnlagt av Saga.",
 
     "founder.heading": "Et ord fra grunnleggeren",
     "founder.body1": "Hei, jeg heter Saga, og jeg grunnla MamaCircle.",
@@ -66,7 +73,6 @@ const translations = {
     "founder.signature": "— Saga",
     "founder.teaser_cta": "Les Sagas historie →",
 
-    "languages.heading": "Rundt om i vår krets",
     "languages.tagline": "Én krets. Mange språk. Én følelse: å høre til.",
 
     "menwithbabies.heading": "Menn med babyer",
@@ -137,7 +143,6 @@ const translations = {
     "newsletter.error": "Noe gikk feil. Prøv igjen om litt.",
     "newsletter.already": "Denne e-posten er allerede med i kretsen.",
 
-    "joinclub.heading": "Klar for å bli med?",
     "joinclub.button": "Bli med i klubben",
 
     "footer.copy": "© 2026 Hafmula Group. MamaCircle er et kallenavn under utvikling.",
@@ -185,6 +190,12 @@ const translations = {
     "alone.body": "Somewhere in our circle, another mama is probably awake with a baby right now, wondering if she's the only one feeling this way.",
     "alone.cta": "Join the circle →",
 
+    "community.teaser_heading": "The Community Corner",
+    "community.teaser_body": "Feeling alone today, or want to read or leave a little note from other mamas?",
+    "community.teaser_cta": "Visit the community corner →",
+    "community.page_heading": "The Community Corner",
+    "community.page_intro": "A place for the quiet moments: knowing you're not alone, and sharing or reading a note from other mamas.",
+
     "about.heading": "About Mama Circle",
     "about.what.heading": "What is Mama Circle?",
     "about.what.body": "MamaCircle is a community for mothers: find nearby moms with babies around the same age, share the journey through a group feed, chat, Q&A, and a knowledge base written by the community itself.",
@@ -192,6 +203,7 @@ const translations = {
     "about.who.body": "New and expecting mothers, whatever their background or first language. MamaCircle is built for integration and inclusion from day one: connecting mothers across languages and cultures, not just within one neighborhood.",
     "about.expect.heading": "What to expect",
     "about.expect.body": "Create a profile, tell us about your neighborhood and your little one, and start connecting with nearby mothers. Your exact address is never shared, only your neighborhood.",
+    "about.founder_mention": "MamaCircle was founded by Saga.",
 
     "founder.heading": "A word from the founder",
     "founder.body1": "Hi, I'm Saga, and I founded MamaCircle.",
@@ -200,7 +212,6 @@ const translations = {
     "founder.signature": "— Saga",
     "founder.teaser_cta": "Read Saga's full story →",
 
-    "languages.heading": "Around the world in our circle",
     "languages.tagline": "One circle. Many languages. One feeling: Belonging.",
 
     "menwithbabies.heading": "Men With Babies",
@@ -271,7 +282,6 @@ const translations = {
     "newsletter.error": "Something went wrong. Please try again shortly.",
     "newsletter.already": "That email is already in the circle.",
 
-    "joinclub.heading": "Ready to join?",
     "joinclub.button": "Join the Club",
 
     "footer.copy": "© 2026 Hafmula Group. MamaCircle is a working name.",

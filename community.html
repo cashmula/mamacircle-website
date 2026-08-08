@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="nb" data-lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fellesskapshjørnet – MamaCircle</title>
+<meta name="description" content="Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.">
+<meta property="og:title" content="Fellesskapshjørnet – MamaCircle">
+<meta property="og:description" content="Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.">
+<meta property="og:image" content="https://mamacircle.no/assets/icons/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mamacircle.no/community.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/icons/logo-96.png" alt="" width="36" height="36">
+      <span>MamaCircle</span>
+    </a>
+    <nav class="header-nav">
+      <a href="index.html#about" data-i18n="nav.about">Om oss</a>
+      <a href="index.html#features" data-i18n="nav.features">Funksjoner</a>
+      <a href="faq.html" data-i18n="nav.faq">Spørsmål</a>
+      <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="community-intro">
+    <div class="wrap section-teaser">
+      <h1 data-i18n="community.page_heading">Fellesskapshjørnet</h1>
+      <p data-i18n="community.page_intro">Et sted for de stille øyeblikkene: å vite at du ikke er alene, og å dele eller lese en hilsen fra andre mammaer.</p>
+    </div>
+  </section>
+
+  <section id="alone" class="alone">
+    <div class="wrap alone-inner">
+      <button id="alone-prompt-btn" type="button" class="btn btn-secondary" data-i18n="alone.prompt">Kjenner du deg litt alene i dag?</button>
+      <div id="alone-reveal" class="alone-reveal" hidden>
+        <h3 data-i18n="alone.title">Du er ikke alene.</h3>
+        <p data-i18n="alone.body">Et sted i vår krets er det sikkert en annen mamma som er våken med babyen sin akkurat nå, og lurer på om hun er den eneste som har det slik.</p>
+        <a class="link-more" href="https://groups.google.com/g/mamacircle-testers" target="_blank" rel="noopener" data-i18n="alone.cta">Bli med i kretsen →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="note" class="note">
+    <div class="wrap note-inner">
+      <h3 data-i18n="note.heading">En liten hilsen fra en mamma ✒︎</h3>
+      <p id="little-note-text" class="note-text"></p>
+      <p id="little-note-place" class="note-place"></p>
+      <a class="link-more" href="note.html" data-i18n="note.cta">Legg igjen en hilsen →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span data-i18n="footer.copy">© 2026 Hafmula Group. MamaCircle er et kallenavn under utvikling.</span>
+    <div class="footer-links">
+      <a href="https://cashmula.github.io/mamacircle-legal/" target="_blank" rel="noopener" data-i18n="footer.privacy">Personvern</a>
+      <a href="https://cashmula.github.io/mamacircle-legal/terms/" target="_blank" rel="noopener" data-i18n="footer.terms">Vilkår</a>
+      <a href="founder.html" data-i18n="footer.founder">Vår historie</a>
+      <a href="contact.html" data-i18n="footer.contact">Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
