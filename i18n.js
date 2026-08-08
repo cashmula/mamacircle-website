@@ -130,6 +130,7 @@ const translations = {
 
     "footer.copy": "© 2026 Hafmula Group. MamaCircle er et kallenavn under utvikling.",
     "footer.privacy": "Personvern",
+    "footer.terms": "Vilkår",
     "footer.contact": "Kontakt",
   },
   en: {
@@ -250,6 +251,7 @@ const translations = {
 
     "footer.copy": "© 2026 Hafmula Group. MamaCircle is a working name.",
     "footer.privacy": "Privacy",
+    "footer.terms": "Terms",
     "footer.contact": "Contact",
   },
 };
