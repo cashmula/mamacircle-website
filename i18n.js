@@ -136,6 +136,7 @@ const translations = {
     "contact.question": "❓ Spørsmål",
     "contact.inquiry": "📩 Forespørsel",
     "contact.feedback": "🗣️ Tilbakemelding",
+    "contact.business": "For forretningshenvendelser, presse eller juridiske henvendelser: <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a>",
 
     "newsletter.heading": "Bli i kretsen",
     "newsletter.body": "Få kommende MamaCircle-arrangementer, fellesskapsoppdateringer og små hilsener fra oss, rett i innboksen.",
@@ -277,6 +278,7 @@ const translations = {
     "contact.question": "❓ Question",
     "contact.inquiry": "📩 Inquiry",
     "contact.feedback": "🗣️ Feedback",
+    "contact.business": "For business, press, or legal inquiries: <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a>",
 
     "newsletter.heading": "Stay in the Circle",
     "newsletter.body": "Get upcoming MamaCircle events, community updates, and little notes from us, straight to your inbox.",
