@@ -172,11 +172,51 @@ a:hover { text-decoration: underline; }
 }
 .play-badge span { line-height: 1.2; font-size: 1.05rem; }
 
+.btn-disabled {
+  position: relative;
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.coming-soon-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: var(--rosewood);
+  color: var(--cream);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
 .hero-note {
   font-size: 0.85rem;
   color: var(--ink-soft);
   max-width: 38ch;
 }
+
+.hero-download-steps {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  max-width: 42ch;
+  margin: 0 0 14px;
+  padding-left: 0;
+}
+.hero-download-steps-heading {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.hero-download-steps-list {
+  margin: 0;
+  padding-left: 1.3em;
+}
+.hero-download-steps-list li { margin-bottom: 3px; }
 
 .hero-art {
   position: relative;
