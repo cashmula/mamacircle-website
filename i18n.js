@@ -1,5 +1,5 @@
 const testimonials = [
-  // Empty until real tester feedback comes in — see README for how to add
+  // Empty until real tester feedback comes in. See README for how to add
   // one: { quote: { nb, en }, author: { nb, en } }. The section itself
   // renders an honest "just getting started" state instead of any
   // placeholder/invented quote while this stays empty.
@@ -29,7 +29,7 @@ const translations = {
     "hero.appStoreSub": "Kommer til iPhone",
     "hero.downloadStepsHeading": "Slik får du tilgang til appen:",
     "hero.downloadStep1": "Trykk på «Google Play»-knappen over og bli med i testgruppen.",
-    "hero.downloadStep2": "Vent litt — det kan ta noen minutter før medlemskapet blir aktivt.",
+    "hero.downloadStep2": "Vent litt. Det kan ta noen minutter før medlemskapet blir aktivt.",
     "hero.downloadStep3": "Åpne <a href=\"https://play.google.com/store/apps/details?id=com.hafmulagroup.mamacircle.app\" target=\"_blank\" rel=\"noopener\">MamaCircle på Google Play</a> og trykk «Installer». Da har du appen.",
     "hero.needToday": "Hva trenger du i dag?",
     "hero.needTalk": "☕ Noen å snakke med",
@@ -75,7 +75,7 @@ const translations = {
     "founder.body1": "Hei, jeg heter Saga, og jeg grunnla MamaCircle.",
     "founder.body3": "Jeg bygde MamaCircle fordi jeg ville at hver mor skulle ha et sted å finne sin krets: en mamma i nærheten med en baby i samme alder, en gruppe som føles som hjemme, et spørsmål besvart av noen som har vært akkurat der du er.",
     "founder.body4": "Uansett hvem du er, hva du snakker, eller hvor du kommer fra: det er en plass for deg her.",
-    "founder.signature": "— Saga",
+    "founder.signature": "Saga",
     "founder.teaser_cta": "Les Sagas historie →",
 
     "languages.tagline": "Én krets. Mange språk. Én følelse: å høre til.",
@@ -176,7 +176,7 @@ const translations = {
     "hero.appStoreSub": "Coming to iPhone",
     "hero.downloadStepsHeading": "Here's how to get the app:",
     "hero.downloadStep1": "Tap the \"Google Play\" button above and join the tester group.",
-    "hero.downloadStep2": "Wait a bit — it can take a few minutes for your membership to become active.",
+    "hero.downloadStep2": "Wait a bit. It can take a few minutes for your membership to become active.",
     "hero.downloadStep3": "Open <a href=\"https://play.google.com/store/apps/details?id=com.hafmulagroup.mamacircle.app\" target=\"_blank\" rel=\"noopener\">MamaCircle on Google Play</a> and tap \"Install.\" That's it, you've got the app.",
     "hero.needToday": "What do you need today?",
     "hero.needTalk": "☕ Someone to talk to",
@@ -222,7 +222,7 @@ const translations = {
     "founder.body1": "Hi, I'm Saga, and I founded MamaCircle.",
     "founder.body3": "I built MamaCircle because I wanted every mother to have somewhere to find her circle: a nearby mom with a baby the same age, a group that feels like home, a question answered by someone who's been exactly where you are.",
     "founder.body4": "Whoever you are, whatever you speak, wherever you're from: there's a place for you here.",
-    "founder.signature": "— Saga",
+    "founder.signature": "Saga",
     "founder.teaser_cta": "Read Saga's full story →",
 
     "languages.tagline": "One circle. Many languages. One feeling: Belonging.",
@@ -341,7 +341,7 @@ function renderTestimonials(lang) {
   list.innerHTML = testimonials
     .map(
       (t) =>
-        `<blockquote class="testimonial-card"><p>“${t.quote[lang]}”</p><cite>— ${t.author[lang]}</cite></blockquote>`
+        `<blockquote class="testimonial-card"><p>“${t.quote[lang]}”</p><cite>(${t.author[lang]})</cite></blockquote>`
     )
     .join("");
 }
