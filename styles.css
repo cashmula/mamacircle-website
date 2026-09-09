@@ -163,36 +163,14 @@ a:hover { text-decoration: underline; }
 }
 .btn-primary:hover { background: color-mix(in srgb, var(--rosewood) 88%, black); text-decoration: none; }
 
-.play-badge small {
+.store-badge small {
   display: block;
   font-weight: 400;
   font-size: 0.72rem;
   opacity: 0.85;
   text-transform: none;
 }
-.play-badge span { line-height: 1.2; font-size: 1.05rem; }
-
-.btn-disabled {
-  position: relative;
-  opacity: 0.5;
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-.coming-soon-badge {
-  position: absolute;
-  top: -8px;
-  right: -10px;
-  background: var(--rosewood);
-  color: var(--cream);
-  font-size: 0.62rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  padding: 3px 8px;
-  border-radius: 999px;
-  white-space: nowrap;
-}
+.store-badge span { line-height: 1.2; font-size: 1.05rem; }
 
 .hero-note {
   font-size: 0.85rem;
@@ -206,6 +184,9 @@ a:hover { text-decoration: underline; }
   max-width: 42ch;
   margin: 0 0 14px;
   padding-left: 0;
+}
+.hero-download-steps-iphone-note {
+  margin: 0 0 10px;
 }
 .hero-download-steps-heading {
   font-weight: 700;
