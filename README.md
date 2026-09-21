@@ -10,6 +10,8 @@ Phone screenshots in `assets/screenshots/` are downscaled copies of the app's re
 
 The Play Store button links to the `mamacircle-testers` Google Group join page (`https://groups.google.com/g/mamacircle-testers`), not the Play Store directly: the app is in Closed Testing, which requires joining that tester group before Play Store access is granted at all. Update it to a direct Play Store listing link once MamaCircle reaches public production.
 
+Because of that tester-group detour, the hero carries a three-step "Slik får du tilgang til appen på Android" list (`hero.downloadStep1`-`3`), and `faq.q1.a`/`faq.q5.a` repeat the same route. Testers kept stalling on the last step: they joined the group and then waited, not realising the app still has to be installed by hand. So every link to the Play Store listing inside that prose is worded as an explicit action ("Trykk HER for å laste ned..." / "Tap HERE to download...") with the link text itself being HER/HERE, rather than a passive "åpne MamaCircle på Google Play". Keep that wording if these strings are edited, and keep the `aria-label` on each of those links (`Last ned MamaCircle på Google Play` / `Download MamaCircle on Google Play`), since bare "here" link text is meaningless to a screen reader. Each of these strings lives in three places: the inline Norwegian fallback in `index.html`/`faq.html`, and the `nb` and `en` entries in `i18n.js`. All three have to be changed together or the page contradicts itself once the language is switched.
+
 To preview locally:
 
 ```
