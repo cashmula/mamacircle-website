@@ -158,6 +158,7 @@ const translations = {
     "footer.terms": "Vilkår",
     "footer.contact": "Kontakt",
     "footer.founder": "Vår historie",
+    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a>",
   },
   en: {
     "nav.about": "About",
@@ -305,6 +306,7 @@ const translations = {
     "footer.terms": "Terms",
     "footer.contact": "Contact",
     "footer.founder": "Our story",
+    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a>",
   },
 };
 
