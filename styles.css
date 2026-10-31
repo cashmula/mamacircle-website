@@ -575,3 +575,6 @@ a:hover { text-decoration: underline; }
   .newsletter-form { flex-direction: column; }
   .stats-numbers { gap: 28px; }
 }
+
+/* Trademark mark after the name in the header (MAMACIRCLE, application 202613365, 2026-10-31; ® once registered). */
+.brand .tm { font-size: .42em; font-weight: 500; vertical-align: super; margin-left: 1px; letter-spacing: 0; }
