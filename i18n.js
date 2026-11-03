@@ -153,7 +153,7 @@ const translations = {
     "footer.terms": "Vilkår",
     "footer.contact": "Kontakt",
     "footer.founder": "Vår historie",
-    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ er et varemerke som tilhører Hafmula Group Omosanya.",
+    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ er et varemerke som tilhører Hafmula Group.",
   },
   en: {
     "nav.about": "About",
@@ -296,7 +296,7 @@ const translations = {
     "footer.terms": "Terms",
     "footer.contact": "Contact",
     "footer.founder": "Our story",
-    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ is a trademark of Hafmula Group Omosanya.",
+    "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ is a trademark of Hafmula Group.",
   },
 };
 
