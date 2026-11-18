@@ -42,7 +42,7 @@ const translations = {
     "note.write_author_label": "Hvor er du fra? (valgfritt)",
     "note.write_author_placeholder": "F.eks. En mamma i Oslo",
     "note.write_button": "Send hilsen",
-    "note.write_note": "Hilsener blir lest gjennom før de eventuelt deles videre i kretsen.",
+    "note.write_note": "Hilsener blir lest gjennom før de eventuelt deles videre i kretsen. Vi lagrer bare hilsenen og stedet du skriver, og sletter dem etter 6 måneder.",
     "note.write_success": "Takk! Hilsenen din er mottatt.",
     "note.write_error": "Noe gikk feil. Prøv igjen om litt.",
 
@@ -109,7 +109,7 @@ const translations = {
 
     "privacy.heading": "Bygget med omtanke",
     "privacy.item1": "Personvern først: aldri nøyaktig hjemadresse, og barnets profil bruker kun kallenavn, fødselsmåned og -år og et valgfritt bilde, aldri full fødselsdato eller navn",
-    "privacy.item2": "Ingen annonser, og ingen analyse- eller sporingsverktøy av noe slag",
+    "privacy.item2": "Ingen annonser, og ingen sporing for reklame eller på tvers av apper og nettsteder",
     "privacy.item3": "Rapportering og blokkering er innebygd fra dag én",
     "privacy.item4": "Full mørk modus",
     "privacy.item5": "Tilgjengelig på 11 språk, blant annet norsk, engelsk, svensk og dansk",
@@ -148,6 +148,7 @@ const translations = {
     "newsletter.body": "Få kommende MamaCircle-arrangementer, fellesskapsoppdateringer og små hilsener fra oss, rett i innboksen.",
     "newsletter.placeholder": "din@epost.no",
     "newsletter.button": "Abonner",
+    "newsletter.privacy": "Vi bruker e-posten din bare til nyhetsbrevet, og du kan melde deg av når som helst. <a href=\"https://cashmula.github.io/mamacircle-legal/#website\" target=\"_blank\" rel=\"noopener\">Personvern</a>",
     "newsletter.success": "Takk! Du er med i kretsen.",
     "newsletter.error": "Noe gikk feil. Prøv igjen om litt.",
     "newsletter.already": "Denne e-posten er allerede med i kretsen.",
@@ -201,7 +202,7 @@ const translations = {
     "note.write_author_label": "Where are you from? (optional)",
     "note.write_author_placeholder": "E.g. A Mama in Oslo",
     "note.write_button": "Send note",
-    "note.write_note": "Notes are read through before they might be shared in the circle.",
+    "note.write_note": "Notes are read through before they might be shared in the circle. We store only the note and the place you write, and delete them after 6 months.",
     "note.write_success": "Thank you! Your note has been received.",
     "note.write_error": "Something went wrong. Please try again shortly.",
 
@@ -268,7 +269,7 @@ const translations = {
 
     "privacy.heading": "Built with care",
     "privacy.item1": "Privacy first: no precise home location, and your child's profile uses only a nickname, birth month and year and an optional photo, never a full birthdate or legal name",
-    "privacy.item2": "No ads, and no advertising or analytics tracking of any kind",
+    "privacy.item2": "No ads, and no tracking for advertising or across other apps and websites",
     "privacy.item3": "Reporting and blocking are built in from day one",
     "privacy.item4": "Full dark mode",
     "privacy.item5": "Available in 11 languages, including Norwegian, English, Swedish and Danish",
@@ -307,6 +308,7 @@ const translations = {
     "newsletter.body": "Get upcoming MamaCircle events, community updates, and little notes from us, straight to your inbox.",
     "newsletter.placeholder": "you@example.com",
     "newsletter.button": "Subscribe",
+    "newsletter.privacy": "We only use your email for the newsletter, and you can unsubscribe at any time. <a href=\"https://cashmula.github.io/mamacircle-legal/#website\" target=\"_blank\" rel=\"noopener\">Privacy</a>",
     "newsletter.success": "Thank you! You're in the circle.",
     "newsletter.error": "Something went wrong. Please try again shortly.",
     "newsletter.already": "That email is already in the circle.",

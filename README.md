@@ -39,7 +39,7 @@ Run it before every push here, against a local preview: `python3 ../mamacircle-a
 **Manual, at every app release and before any campaign** (a script cannot judge these):
 
 - the features page and FAQ cover what `FEATURES.md` in `mamacircle-app` lists as live (never the **(dev)** lines); as of 2026-11-18 the site still says nothing about events, Vipps sign-up and verification, pregnancy and the "Expecting" badge, stories or the baby registry;
-- every privacy line agrees with the privacy policy (`mamacircle-legal`), in particular "no tracking" while the app runs Firebase Performance Monitoring (`READINESS.md`, 2026-11-18);
+- every privacy line agrees with the privacy policy (`mamacircle-legal`). Since 2026-11-18 the policy discloses Firebase Performance Monitoring (owner's choice: keep it and say so), so the site says "no tracking for advertising or across other apps and websites", never "no analytics"; the newsletter and note forms each carry a line about their data, and the policy's "Our website" section (`#website`) covers them;
 - the country and availability wording agrees between FAQ q1 and q3;
 - the partner card's "Siste treff" is still the latest meetup: replace it, or remove the card, about three months after the date;
 - the screenshots in `assets/screenshots/` still look like the app;

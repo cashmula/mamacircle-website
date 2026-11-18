@@ -742,3 +742,8 @@ html:has(.photo-dialog[open]) { overflow: hidden; }
   .zoom-icon { transition: none; }
   .photo-zoom:hover .zoom-icon { transform: none; }
 }
+
+/* One line under the newsletter form: what the address is used for, and
+   where the policy says more (2026-11-18). */
+.newsletter-privacy { margin: 12px auto 0; max-width: 520px; font-size: .82rem; line-height: 1.5; color: var(--ink-soft); }
+.newsletter-privacy a { color: var(--ink-soft); text-decoration: underline; }
