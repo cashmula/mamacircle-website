@@ -154,6 +154,16 @@ const translations = {
     "footer.contact": "Kontakt",
     "footer.founder": "Vår historie",
     "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ er et varemerke som tilhører Hafmula Group.",
+
+    "trust.heading": "Personvern og trygghet",
+    "trust.eu": "Databasen ligger i EU",
+    "trust.euSub": "Stockholm, Sverige",
+    "trust.ads": "Ingen annonser",
+    "trust.adsSub": "Og ingen sporing",
+    "trust.vipps": "ID-sjekk med Vipps",
+    "trust.vippsSub": "Valgfritt for medlemmer",
+    "trust.data": "Dine data, ditt valg",
+    "trust.dataSub": "Last ned eller slett i appen",
   },
   en: {
     "nav.about": "About",
@@ -297,6 +307,16 @@ const translations = {
     "footer.contact": "Contact",
     "footer.founder": "Our story",
     "footer.legal": "Hafmula Group Omosanya &middot; Org.nr. 935143918 &middot; <a href=\"mailto:admin@mamacircle.no\">admin@mamacircle.no</a><br>MamaCircle™ is a trademark of Hafmula Group.",
+
+    "trust.heading": "Privacy and safety",
+    "trust.eu": "Our database is in the EU",
+    "trust.euSub": "Stockholm, Sweden",
+    "trust.ads": "No ads",
+    "trust.adsSub": "And no tracking",
+    "trust.vipps": "ID check with Vipps",
+    "trust.vippsSub": "Optional for members",
+    "trust.data": "Your data, your choice",
+    "trust.dataSub": "Download or delete in the app",
   },
 };
 

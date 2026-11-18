@@ -14,9 +14,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/karla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -54,6 +53,30 @@
   </section>
 
 </main>
+
+<section class="trust" aria-labelledby="trust-heading">
+  <div class="wrap">
+    <h2 id="trust-heading" class="visually-hidden" data-i18n="trust.heading">Personvern og trygghet</h2>
+    <ul class="trust-grid">
+      <li><a class="trust-item" href="https://cashmula.github.io/mamacircle-legal/#transfers" target="_blank" rel="noopener">
+        <span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z"/><text x="12" y="14.6" text-anchor="middle" font-size="6.6" font-weight="700" fill="currentColor" stroke="none">EU</text></svg></span>
+        <span class="trust-text"><span class="trust-title" data-i18n="trust.eu">Databasen ligger i EU</span><span class="trust-sub" data-i18n="trust.euSub">Stockholm, Sverige</span></span>
+      </a></li>
+      <li><a class="trust-item" href="https://cashmula.github.io/mamacircle-legal/#use" target="_blank" rel="noopener">
+        <span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/><path d="M6.61 6.61A13.53 13.53 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/><line x1="2" y1="2" x2="22" y2="22"/></svg></span>
+        <span class="trust-text"><span class="trust-title" data-i18n="trust.ads">Ingen annonser</span><span class="trust-sub" data-i18n="trust.adsSub">Og ingen sporing</span></span>
+      </a></li>
+      <li><a class="trust-item" href="https://cashmula.github.io/mamacircle-legal/#collect" target="_blank" rel="noopener">
+        <span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg></span>
+        <span class="trust-text"><span class="trust-title" data-i18n="trust.vipps">ID-sjekk med Vipps</span><span class="trust-sub" data-i18n="trust.vippsSub">Valgfritt for medlemmer</span></span>
+      </a></li>
+      <li><a class="trust-item" href="https://cashmula.github.io/mamacircle-legal/#rights" target="_blank" rel="noopener">
+        <span class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
+        <span class="trust-text"><span class="trust-title" data-i18n="trust.data">Dine data, ditt valg</span><span class="trust-sub" data-i18n="trust.dataSub">Last ned eller slett i appen</span></span>
+      </a></li>
+    </ul>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
