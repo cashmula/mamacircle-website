@@ -132,7 +132,36 @@ function initLittleNoteForm() {
   });
 }
 
+// Photo viewer for the partner card: each photo is a link to its full-size
+// file (what a browser without <dialog> opens), shown in a modal instead.
+function initPhotoViewer() {
+  const dialog = document.getElementById("photo-dialog");
+  if (!dialog || typeof dialog.showModal !== "function") return;
+  const big = dialog.querySelector("img");
+  let opener = null;
+  document.querySelectorAll(".photo-zoom").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const thumb = link.querySelector("img");
+      big.src = link.getAttribute("href");
+      big.alt = thumb.alt;
+      dialog.setAttribute("aria-label", thumb.alt);
+      opener = link;
+      dialog.showModal();
+    });
+  });
+  dialog.querySelector(".photo-dialog-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+  dialog.addEventListener("close", () => {
+    if (opener) opener.focus();
+    opener = null;
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initPhotoViewer();
   loadCircleStats();
   initNewsletterForm();
   initLittleNoteForm();

@@ -183,13 +183,21 @@
       <h2 data-i18n="partner.heading">Sammen med MiR</h2>
       <div class="partner-card">
         <div class="partner-photos">
-          <img class="partner-photo" src="assets/partners/mir-lorenskog-2026-11-14.jpg" width="600" height="800" loading="lazy"
-               data-i18n-alt="partner.photo_alt" alt="Småbarn i vinterdress i snøen, og familier ved bordene og kjeglene i Rådhusparken ved Langvannet.">
-          <img class="partner-photo partner-photo-grill" src="assets/partners/mir-lorenskog-2026-11-14-grill.jpg" width="564" height="800" loading="lazy"
-               data-i18n-alt="partner.photo2_alt" alt="Pølser på grillen i snøen.">
+          <a class="photo-zoom" href="assets/partners/mir-lorenskog-2026-11-14-full.jpg">
+            <img class="partner-photo" src="assets/partners/mir-lorenskog-2026-11-14.jpg" width="600" height="800" loading="lazy"
+                 data-i18n-alt="partner.photo_alt" alt="Småbarn i vinterdress i snøen, og familier ved bordene og kjeglene i Rådhusparken ved Langvannet.">
+            <span class="zoom-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
+            <span class="visually-hidden" data-i18n="partner.zoom">Vis bildet i full størrelse</span>
+          </a>
+          <a class="photo-zoom" href="assets/partners/mir-lorenskog-2026-11-14-grill-full.jpg">
+            <img class="partner-photo partner-photo-grill" src="assets/partners/mir-lorenskog-2026-11-14-grill.jpg" width="564" height="800" loading="lazy"
+                 data-i18n-alt="partner.photo2_alt" alt="Pølser på grillen i snøen.">
+            <span class="zoom-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></span>
+            <span class="visually-hidden" data-i18n="partner.zoom">Vis bildet i full størrelse</span>
+          </a>
         </div>
         <div class="partner-copy">
-          <a class="logo-chip" href="https://mirnett.org" target="_blank" rel="noopener"><img src="assets/partners/mir-logo.jpg" alt="MiR" width="164" height="210" loading="lazy"></a>
+          <a class="logo-chip" href="https://mirnett.org" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/partners/mir-logo.jpg" alt="MiR" width="164" height="210" loading="lazy"></a>
           <p data-i18n="partner.about">MiR er en forening i Oslo som skaper aktiviteter for barn, unge og familier med minoritetsbakgrunn.</p>
           <div class="partner-event">
             <span class="partner-label" data-i18n="partner.label">Siste treff</span>
@@ -199,6 +207,12 @@
           <a class="link-more" href="https://mirnett.org" target="_blank" rel="noopener" data-i18n="partner.link">Besøk MiR →</a>
         </div>
       </div>
+      <dialog class="photo-dialog" id="photo-dialog">
+        <div class="photo-dialog-inner">
+          <button type="button" class="photo-dialog-close"><span aria-hidden="true">✕</span> <span data-i18n="partner.close">Lukk</span></button>
+          <img alt="">
+        </div>
+      </dialog>
     </div>
   </section>
 

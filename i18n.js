@@ -106,6 +106,8 @@ const translations = {
     "partner.link": "Besøk MiR →",
     "partner.photo_alt": "Småbarn i vinterdress i snøen, og familier ved bordene og kjeglene i Rådhusparken ved Langvannet.",
     "partner.photo2_alt": "Pølser på grillen i snøen.",
+    "partner.zoom": "Vis bildet i full størrelse",
+    "partner.close": "Lukk",
 
     "testimonials.heading": "Fine ord fra andre mammaer",
     "testimonials.empty": "Kretsen vår er akkurat i gang. Kom tilbake snart for fine ord fra mammaer i fellesskapet.",
@@ -268,6 +270,8 @@ const translations = {
     "partner.link": "Visit MiR →",
     "partner.photo_alt": "Toddlers in snowsuits in the snow, with families by the tables and cones in Rådhusparken by Langvannet.",
     "partner.photo2_alt": "Sausages on the grill in the snow.",
+    "partner.zoom": "Show the photo full size",
+    "partner.close": "Close",
 
     "testimonials.heading": "Kind words from other mamas",
     "testimonials.empty": "Our circle is just getting started. Check back soon for kind words from mamas in the community.",
