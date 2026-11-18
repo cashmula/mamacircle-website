@@ -19,3 +19,29 @@ python3 -m http.server 8000
 Then open `http://localhost:8000`.
 
 To deploy: push to `main`. `.github/workflows/deploy.yml` uploads the repo root to Webhuset via SFTP (`wangyucode/sftp-upload-action@v3`, remote path `www/`), no build step. `CNAME` is a leftover from the original GitHub Pages setup and is no longer used for deployment; DNS for `mamacircle.no` is managed directly in Webhuset's panel, not through this repo.
+
+## Keeping the site current
+
+Added 2026-11-18, after the site was found listing 9 of the app's 11 languages, calling the live events calendar "under development", and missing the trademark line in its no-JavaScript fallback.
+
+**Automated:** `scripts/website_drift_check.py` in `mamacircle-app` reads the live site every Monday, and on any push that changes the app's languages, store ids or the check itself (`.github/workflows/website-drift.yml` there; a failure emails the owner). It fails when:
+
+- the language badges, FAQ q8 or `privacy.item5` do not match the app's locales (`app/lib/l10n/`);
+- `nb` and `en` keys differ, a page uses a key with no translation, or a page's inline Norwegian differs from `nb` in `i18n.js`;
+- testing-period or unbuilt-feature wording appears ("beta", "tester", "kommer snart", "under utvikling", "in the works" and similar);
+- the ® mark appears (MAMACIRCLE is applied for, not registered: use ™);
+- a page loads anything (fonts, scripts, images, fetch) from a third party other than the production Supabase project and Cloudflare Turnstile;
+- a Google Play or App Store link points at another app, or a privacy-policy anchor the site links to no longer exists;
+- a link or file returns 404 or 410 (blocks and timeouts only warn).
+
+Run it before every push here, against a local preview: `python3 ../mamacircle-app/scripts/website_drift_check.py --site http://127.0.0.1:8000/` (add `--no-links` offline).
+
+**Manual, at every app release and before any campaign** (a script cannot judge these):
+
+- the features page and FAQ cover what `FEATURES.md` in `mamacircle-app` lists as live (never the **(dev)** lines); as of 2026-11-18 the site still says nothing about events, Vipps sign-up and verification, pregnancy and the "Expecting" badge, stories or the baby registry;
+- every privacy line agrees with the privacy policy (`mamacircle-legal`), in particular "no tracking" while the app runs Firebase Performance Monitoring (`READINESS.md`, 2026-11-18);
+- the country and availability wording agrees between FAQ q1 and q3;
+- the partner card's "Siste treff" is still the latest meetup: replace it, or remove the card, about three months after the date;
+- the screenshots in `assets/screenshots/` still look like the app;
+- the rotating notes in `i18n.js` (`littleNotes`) are real, submitted notes;
+- the held-back pages (`stopp.html`, `bekreft.html`, `arrangement.html`) before they go live.

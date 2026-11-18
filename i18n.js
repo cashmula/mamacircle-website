@@ -75,9 +75,6 @@ const translations = {
 
     "languages.tagline": "Én krets. Mange språk. Én følelse: å høre til.",
 
-    "menwithbabies.heading": "Menn med babyer",
-    "menwithbabies.badge": "Kommer snart",
-    "menwithbabies.body": "Et sted for pappaer også. Under utvikling.",
 
     "features.heading": "Laget for øyeblikkene som betyr noe",
     "features.teaser_body": "Finn din krets, del i grupper, chat i sanntid, og spør og svar med andre mødre.",
@@ -109,11 +106,9 @@ const translations = {
     "partner.zoom": "Vis bildet i full størrelse",
     "partner.close": "Lukk",
 
-    "testimonials.heading": "Fine ord fra andre mammaer",
-    "testimonials.empty": "Kretsen vår er akkurat i gang. Kom tilbake snart for fine ord fra mammaer i fellesskapet.",
 
     "privacy.heading": "Bygget med omtanke",
-    "privacy.item1": "Personvern først: aldri nøyaktig hjemadresse, og barnets profil bruker kun kallenavn og fødselsmåned, aldri fullt fødselsdato eller navn",
+    "privacy.item1": "Personvern først: aldri nøyaktig hjemadresse, og barnets profil bruker kun kallenavn, fødselsmåned og -år og et valgfritt bilde, aldri full fødselsdato eller navn",
     "privacy.item2": "Ingen annonser, og ingen analyse- eller sporingsverktøy av noe slag",
     "privacy.item3": "Rapportering og blokkering er innebygd fra dag én",
     "privacy.item4": "Full mørk modus",
@@ -134,7 +129,7 @@ const translations = {
     "faq.q5.q": "Hvordan blir jeg medlem?",
     "faq.q5.a": "Last ned appen fra <a href=\"https://play.google.com/store/apps/details?id=com.hafmulagroup.mamacircle.app\" target=\"_blank\" rel=\"noopener\">Google Play</a> eller <a href=\"https://apps.apple.com/no/app/mamacircle/id6808782591\" target=\"_blank\" rel=\"noopener\">App Store</a>, eller bruk den i nettleseren på <a href=\"https://app.mamacircle.no\" target=\"_blank\" rel=\"noopener\">app.mamacircle.no</a>. Så registrerer du deg med e-post rett i appen.",
     "faq.q6.q": "Er det aktiviteter eller møter, ikke bare chat?",
-    "faq.q6.a": "Grupper i appen er en fin måte å møte andre mødre rundt en delt interesse, nabolag eller livsfase. En egen aktivitets- og arrangementskalender er under utvikling.",
+    "faq.q6.a": "Ja. Appen har en arrangementskalender der du kan melde deg på treff og aktiviteter, og grupper rundt felles interesser, nabolag eller livsfase.",
     "faq.q7.q": "Hva gjør fellesskapet i MamaCircle annerledes?",
     "faq.q7.a": "MamaCircle er bygget for integrering og inkludering fra dag én: å koble mødre sammen tvers av språk, kulturer og bakgrunn, ikke bare i eget nabolag.",
     "faq.q8.q": "Hvilke språk støtter MamaCircle?",
@@ -239,9 +234,6 @@ const translations = {
 
     "languages.tagline": "One circle. Many languages. One feeling: Belonging.",
 
-    "menwithbabies.heading": "Men With Babies",
-    "menwithbabies.badge": "Coming soon",
-    "menwithbabies.body": "A space for dads too. In the works.",
 
     "features.heading": "Made for the moments that matter",
     "features.teaser_body": "Find your circle, share in groups, chat in real time, and ask questions with other mothers.",
@@ -273,11 +265,9 @@ const translations = {
     "partner.zoom": "Show the photo full size",
     "partner.close": "Close",
 
-    "testimonials.heading": "Kind words from other mamas",
-    "testimonials.empty": "Our circle is just getting started. Check back soon for kind words from mamas in the community.",
 
     "privacy.heading": "Built with care",
-    "privacy.item1": "Privacy first: no precise home location, and your child's profile uses a nickname and birth month only, never a full birthdate or legal name",
+    "privacy.item1": "Privacy first: no precise home location, and your child's profile uses only a nickname, birth month and year and an optional photo, never a full birthdate or legal name",
     "privacy.item2": "No ads, and no advertising or analytics tracking of any kind",
     "privacy.item3": "Reporting and blocking are built in from day one",
     "privacy.item4": "Full dark mode",
@@ -298,7 +288,7 @@ const translations = {
     "faq.q5.q": "How do I become a member?",
     "faq.q5.a": "Download the app from <a href=\"https://play.google.com/store/apps/details?id=com.hafmulagroup.mamacircle.app\" target=\"_blank\" rel=\"noopener\">Google Play</a> or the <a href=\"https://apps.apple.com/no/app/mamacircle/id6808782591\" target=\"_blank\" rel=\"noopener\">App Store</a>, or use it in your browser at <a href=\"https://app.mamacircle.no\" target=\"_blank\" rel=\"noopener\">app.mamacircle.no</a>. Then sign up with your email right in the app.",
     "faq.q6.q": "Are there activities or meetups, not just chat?",
-    "faq.q6.a": "Groups in the app are a great way to meet other mothers around a shared interest, neighborhood, or stage. A dedicated activities & events calendar is in the works.",
+    "faq.q6.a": "Yes. The app has an events calendar where you can sign up for meetups and activities, plus groups around a shared interest, neighborhood or stage.",
     "faq.q7.q": "What makes MamaCircle's community different?",
     "faq.q7.a": "MamaCircle is built for integration and inclusion from day one: connecting mothers across languages, cultures, and backgrounds, not just within one neighborhood.",
     "faq.q8.q": "What languages does MamaCircle support?",
