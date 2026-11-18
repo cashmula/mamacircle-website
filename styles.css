@@ -603,9 +603,17 @@ a:hover { text-decoration: underline; }
   .founder-copy { text-align: center; }
 }
 
-@media (max-width: 620px) {
+/* Phone header: only the brand and the language button. In em, not px, so
+   it also applies on wider screens when someone has set a larger default
+   text size in the browser: at the normal 16px it is exactly 620px, at 24px
+   it is 930px. In px, the four links stopped fitting and pushed the whole
+   page sideways at larger text sizes (found 2026-11-18). */
+@media (max-width: 38.75em) {
   .header-nav { gap: 14px; }
   .header-nav a:not(.lang-toggle) { display: none; }
+}
+
+@media (max-width: 620px) {
   .feature-grid { grid-template-columns: 1fr; }
   .hero { padding: 40px 0 24px; }
   .hero-art { height: 280px; }
