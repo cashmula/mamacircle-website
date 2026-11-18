@@ -708,6 +708,8 @@ a:hover { text-decoration: underline; }
 .photo-zoom:hover .zoom-icon { transform: scale(1.1); }
 .photo-dialog { padding: 0; border: 0; background: transparent; max-width: 94vw; max-height: 94vh; overflow: visible; }
 .photo-dialog::backdrop { background: rgba(10, 10, 10, .85); }
+/* The page must not scroll away behind an open photo. */
+html:has(.photo-dialog[open]) { overflow: hidden; }
 .photo-dialog-inner { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
 .photo-dialog img { display: block; max-width: 94vw; max-height: calc(94vh - 56px); width: auto; height: auto; border-radius: 10px; }
 .photo-dialog-close {

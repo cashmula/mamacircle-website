@@ -143,9 +143,13 @@ function initPhotoViewer() {
     link.addEventListener("click", (event) => {
       event.preventDefault();
       const thumb = link.querySelector("img");
-      big.src = link.getAttribute("href");
+      // Clear first, or the last photo shows until the new one has loaded.
+      big.removeAttribute("src");
+      // The big photo takes the thumbnail's alt key, so applyLang keeps it
+      // (and the dialog's name, aria-labelledby below) in the current language.
+      big.dataset.i18nAlt = thumb.dataset.i18nAlt;
       big.alt = thumb.alt;
-      dialog.setAttribute("aria-label", thumb.alt);
+      big.src = link.getAttribute("href");
       opener = link;
       dialog.showModal();
     });
