@@ -98,6 +98,15 @@ const translations = {
     "stats.loading": "Teller kretsen...",
     "stats.error": "Kunne ikke laste tall akkurat nå.",
 
+    "partner.heading": "Sammen med MiR",
+    "partner.about": "MiR er en forening i Oslo som skaper aktiviteter for barn, unge og familier med minoritetsbakgrunn.",
+    "partner.label": "Siste treff",
+    "partner.event_title": "Friluftslivsdag for hele familien i Lørenskog",
+    "partner.event_text": "Lørdag 14. november i Rådhusparken ved Langvannet: grilling, lek og fellesskap.",
+    "partner.link": "Besøk MiR →",
+    "partner.photo_alt": "Småbarn i vinterdress i snøen, og familier ved bordene og kjeglene i Rådhusparken ved Langvannet.",
+    "partner.photo2_alt": "Pølser på grillen i snøen.",
+
     "testimonials.heading": "Fine ord fra andre mammaer",
     "testimonials.empty": "Kretsen vår er akkurat i gang. Kom tilbake snart for fine ord fra mammaer i fellesskapet.",
 
@@ -251,6 +260,15 @@ const translations = {
     "stats.loading": "Counting the circle...",
     "stats.error": "Couldn't load the numbers right now.",
 
+    "partner.heading": "Together with MiR",
+    "partner.about": "MiR is an Oslo association that runs activities for children, young people and families with a minority background.",
+    "partner.label": "Our latest meetup",
+    "partner.event_title": "An outdoor day for the whole family in Lørenskog",
+    "partner.event_text": "Saturday 14 November in Rådhusparken by Langvannet: a barbecue, games and time together.",
+    "partner.link": "Visit MiR →",
+    "partner.photo_alt": "Toddlers in snowsuits in the snow, with families by the tables and cones in Rådhusparken by Langvannet.",
+    "partner.photo2_alt": "Sausages on the grill in the snow.",
+
     "testimonials.heading": "Kind words from other mamas",
     "testimonials.empty": "Our circle is just getting started. Check back soon for kind words from mamas in the community.",
 
@@ -327,6 +345,10 @@ function applyLang(lang) {
     const key = el.dataset.i18n;
     const value = translations[lang][key];
     if (value !== undefined) el.innerHTML = value;
+  });
+  document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
+    const value = translations[lang][el.dataset.i18nAlt];
+    if (value !== undefined) el.alt = value;
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
     const key = el.dataset.i18nPlaceholder;
