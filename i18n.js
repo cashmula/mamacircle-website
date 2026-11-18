@@ -117,7 +117,7 @@ const translations = {
     "privacy.item2": "Ingen annonser, og ingen analyse- eller sporingsverktøy av noe slag",
     "privacy.item3": "Rapportering og blokkering er innebygd fra dag én",
     "privacy.item4": "Full mørk modus",
-    "privacy.item5": "Tilgjengelig på norsk, engelsk, svensk og dansk (og flere til)",
+    "privacy.item5": "Tilgjengelig på 11 språk, blant annet norsk, engelsk, svensk og dansk",
     "privacy.link": "Les hele personvernerklæringen →",
 
     "faq.heading": "Spørsmål",
@@ -138,7 +138,7 @@ const translations = {
     "faq.q7.q": "Hva gjør fellesskapet i MamaCircle annerledes?",
     "faq.q7.a": "MamaCircle er bygget for integrering og inkludering fra dag én: å koble mødre sammen tvers av språk, kulturer og bakgrunn, ikke bare i eget nabolag.",
     "faq.q8.q": "Hvilke språk støtter MamaCircle?",
-    "faq.q8.a": "Norsk, engelsk, svensk, dansk, arabisk, somali, spansk, tigrinja og amharisk, med et språkvalg rett i appen.",
+    "faq.q8.a": "11 språk: norsk, engelsk, svensk, dansk, arabisk, somali, spansk, tigrinja, amharisk, persisk (dari) og pashto, med et språkvalg rett i appen.",
 
     "contact.heading": "Forslag og spørsmål",
     "contact.body": "Vi vil gjerne høre fra deg. Velg det som passer best:",
@@ -281,7 +281,7 @@ const translations = {
     "privacy.item2": "No ads, and no advertising or analytics tracking of any kind",
     "privacy.item3": "Reporting and blocking are built in from day one",
     "privacy.item4": "Full dark mode",
-    "privacy.item5": "Available in Norwegian, English, Swedish, and Danish (and more)",
+    "privacy.item5": "Available in 11 languages, including Norwegian, English, Swedish and Danish",
     "privacy.link": "Read the full privacy policy →",
 
     "faq.heading": "FAQ",
@@ -302,7 +302,7 @@ const translations = {
     "faq.q7.q": "What makes MamaCircle's community different?",
     "faq.q7.a": "MamaCircle is built for integration and inclusion from day one: connecting mothers across languages, cultures, and backgrounds, not just within one neighborhood.",
     "faq.q8.q": "What languages does MamaCircle support?",
-    "faq.q8.a": "Norwegian, English, Swedish, Danish, Arabic, Somali, Spanish, Tigrinya, and Amharic, with a language picker right in the app.",
+    "faq.q8.a": "11 languages: Norwegian, English, Swedish, Danish, Arabic, Somali, Spanish, Tigrinya, Amharic, Persian (Dari) and Pashto, with a language picker right in the app.",
 
     "contact.heading": "Suggestions & inquiries",
     "contact.body": "We'd love to hear from you. Pick whatever fits best:",
